@@ -26,4 +26,5 @@ take_a_number(katz_deli, "Tom")
 take_a_number(katz_deli, "Alan")
 
 def line(array)
-  if array == 0 
+  if array.length == 0
+    
