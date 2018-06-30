@@ -27,7 +27,7 @@ take_a_number(katz_deli, "Alan")
 
 def line(katz_deli)
   if katz_deli.length == 0
-    puts "The line is currently empty"
+    puts "The line is currently empty."
     katz_deli.each_with_index do |value, index|
       message += " #{index.to_i+1}. #{value}"
     end 
