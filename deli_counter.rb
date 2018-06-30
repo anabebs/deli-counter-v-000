@@ -29,6 +29,6 @@ def now_serving
   take_a_number()
   katz_deli.unshift
   if katz_deli == 0 
-    puts 
+    puts"There is nobody waiting to be served!".
 end
       
