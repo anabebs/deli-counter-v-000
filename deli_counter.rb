@@ -17,12 +17,10 @@ end
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
       line_positions = array.index(name)
+      puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
+  return name, position 
+end 
       
       
-      #{customer}"
-      number += 1
-  
-  puts "Welcome #{name}, you are number #{katz_deli.size} in line."
-
 end
 end
