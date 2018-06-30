@@ -24,4 +24,3 @@ end
 take_a_number(katz_deli, "Grace")
 take_a_number(katz_deli, "Tom")
 take_a_number(katz_deli, "Alan")
-
