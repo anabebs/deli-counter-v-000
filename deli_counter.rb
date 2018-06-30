@@ -15,7 +15,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  katz_deli.push
+  katz_deli.push(name)
       line_positions "#{number}. #{customer}"
       number += 1
   
