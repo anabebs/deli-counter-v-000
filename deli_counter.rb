@@ -28,5 +28,5 @@ take_a_number(katz_deli, "Alan")
 def line(array)
   if array.length == 0
     puts "The line ic currently empty"
-    array.each_with_index
+    array.each_with_index do |value, index|
     
