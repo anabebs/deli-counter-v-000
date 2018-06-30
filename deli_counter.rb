@@ -16,7 +16,8 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-      line_positions "#{number}. #{customer}"
+      line_positions = array.index 
+      #{customer}"
       number += 1
   
   puts "Welcome #{name}, you are number #{katz_deli.size} in line."
