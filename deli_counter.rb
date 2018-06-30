@@ -37,8 +37,8 @@ def line(array)
   line(katz_deli)
 
 
-def now_serving(array)
-  if array.empty? == true 
+def now_serving(katz_deli)
+  if katz_deli.empty? == true 
     puts "There is nobody waiting to be served!"
   elsif array.empty? == false 
     puts "Currently serving #{array.shift}."
